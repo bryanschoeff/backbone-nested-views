@@ -1,0 +1,3 @@
+<div>
+	<label for="<%= id %>"><%= id %></label><input id="<%= id %>" class="money-input" type="text" placeholder="0" value="<%= formatted %>" /><span><%= value %></span>
+</div>

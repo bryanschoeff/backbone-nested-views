@@ -17,7 +17,7 @@ fsapp.views.LineItems = Backbone.View.extend(
       that.$el.find('.line-items').append(newstring)
     )
     @updateTotal()
-    $('#list').html(@el)
+    @el
 
   updateTotal: ->
     @$el.find('.total').html(@collection.total())

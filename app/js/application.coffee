@@ -23,4 +23,4 @@ $ ->
 
   fsapp.collections.lineItems = new fsapp.collections.LineItems(initData)
   fsapp.views.lineItems = new fsapp.views.LineItems({collection: fsapp.collections.lineItems})
-  fsapp.views.lineItems.render()
+  $('#list').html(fsapp.views.lineItems.render())

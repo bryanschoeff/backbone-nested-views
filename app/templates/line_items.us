@@ -1,7 +1,6 @@
 <div>
-	<div class="line-items">
-	</div>
-	<div class="total">
-		<%= total %>
-	</div>
+  <div class="line-items">
+  </div>
+  <div class="total">
+  </div>
 </div>

@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="<%= css %>" media="all" />
   </head>
   <body>
-    <h1>Sup</h1>
+    <h1>Nested Views &amp; Totalling</h1>
     <div id="list">
     </div>
     <script type="text/javascript" src="<%= js %>"></script>
